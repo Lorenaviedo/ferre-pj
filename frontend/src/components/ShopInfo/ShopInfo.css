@@ -1,0 +1,53 @@
+/*Shopping Info*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/**************************************************************/
+/*************************UTILIDADES***************************/
+
+.heading-1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+/************************** FEATURES - caracteristicas ******************************/
+.container-features{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem 0;    
+}
+
+.card-feature{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: #fff;
+    border: 1px solid #e2e1e1;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+    cursor: pointer;
+}
+
+.card-feature .icon{
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+}
+
+.feature-content span{
+    font-weight: 700;
+    font-size: 15px;
+    color: #151515;
+}
+
+.feature-content p{
+    color: #777;
+    font-weight: 500;
+    font-size: 12px;
+}

@@ -1,0 +1,165 @@
+.footer1{
+    width: 100%;
+    height: 380px;
+    padding-top: 25px;
+    display: flex;
+    font-family: inherit;
+}
+
+.footer1 ul{
+    list-style: none;
+}
+
+.footer1 ul li{
+    display: flexbox;
+    padding: 6px;
+}
+
+.links_contacto li {
+    text-decoration: none;
+    text-align: inherit;
+}
+
+.title-footer{
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.menu-footer{
+    justify-items: center;
+}
+
+.contact-info,
+.information,
+.my-account,
+.news{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact-info ul,
+.information ul,
+.my-account ul{
+    display: flex;
+    flex-direction: column;
+    gap: .1px !important;
+    padding-left: 0;
+}
+
+.contact-info ul li,
+.information ul li,
+.my-account ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-left: 0;
+}
+
+.social-icons{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1px;
+}
+
+.social-icons span{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons span .brandsicon{
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.faWhatsapp{
+    background-color: #68c729;
+}
+
+.faFacebook{
+    background-color: #3b5998;
+}
+
+.faTelegram{
+    background-color: #00acee;
+}
+
+.faInstagram{
+    background: linear-gradient(
+        #405de6,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d,
+        #f56040,
+        #fcaf45
+    );
+}
+
+.content-footer p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.content-footer input{
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    padding: 0.5rem 0 1.2rem;
+    color: var(--dark-color);
+    display: block;
+    margin-bottom: 1.6rem;
+    margin-top: 1.8rem;
+    width: 100%;
+}
+
+.content-footer input::-webkit-input-placeholder{
+    color: #eee;
+}
+
+.content-footer button{
+    border: none;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.content-footer button:hover{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border-top: 1px solid #fff;
+}
+
+.copyright p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.row-footer img{
+    border-radius: 0% !important;
+    width: auto !important;
+    height: 1.5rem;
+}

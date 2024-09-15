@@ -1,0 +1,68 @@
+.div-overflow {
+  max-height: 400px;
+}
+
+.productForm-box {
+  width: 54rem;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid #c2bcbc;
+}
+
+.productForm-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.productForm-box .inputs {
+  width: 98%;
+  margin-bottom: 20px;
+}
+
+.productForm-box input[type="text"],
+.productForm-box input[type="password"] {
+  /*border: none;
+    border-bottom: 1px solid #69757d;*/
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+}
+
+.btn-save {
+  font-family: inherit;
+  background-color: black;
+  border: 1px solid black !important;
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: rgb(92, 182, 92);
+  border: 1px solid rgb(92, 182, 92) !important;
+}
+
+.cont-btn-save {
+  align-items: center !important;
+}
+
+.btn-delete {
+  font-family: inherit;
+  background-color: red;
+  border: 1px solid rgb(195, 0, 0) !important;
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: rgb(241, 93, 93);
+  border: 1px solid red !important;
+}

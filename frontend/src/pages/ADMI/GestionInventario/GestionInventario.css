@@ -1,0 +1,19 @@
+.content-products .op-edit, .op-delete {
+    cursor: pointer;
+}
+
+/* BOTON */
+.btn-add{
+    font-family: inherit;
+    background-color: black;
+    border: 1px solid black !important;
+    width: 15rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-add:hover{
+    background-color: rgb(44, 42, 42);
+}

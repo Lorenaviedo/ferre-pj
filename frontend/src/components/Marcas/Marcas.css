@@ -1,0 +1,117 @@
+/*Marcas
+
+.branch .linksmarcas{
+    list-style: none;
+    margin-top: 20px;
+}
+.branch .linksmarcas li{
+    display: inline-block;
+    padding: 0 100px;
+}
+.branch .linksmarcas a img{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.branch .linksmarcas a img:hover{
+    transform: scale(1.1);
+}
+
+.marketing{
+    margin-top: 20px;
+}
+
+.branch{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+INFO BRAND
+.imagencont1 .imageen{
+    margin-top: 10px;
+    width: 100%;
+}*/
+
+.heading-branch{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+/************************** CATEGORIES ******************************/
+
+.top-categories-branch{
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container-categories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.2rem;
+}
+
+.card-category{
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 2rem;
+}
+
+.category-dewalt{
+    background-image: linear-gradient(#00000080, #00000080), 
+        url('https://bynder.sbdinc.com/m/6adb0b8904e34a31/Drupal_Small-DCE700X2K_F7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-bosch{
+    background-image: linear-gradient(#00000080, #00000080), 
+    url('https://www.ferreteriajrc.com/Buton/Electricos1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-urrea{
+    background-image: linear-gradient(#00000080, #00000080), 
+    url('https://www.tienda-urrea.com/wp-content/uploads/2021/03/JPI01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-category p{ 
+    font-size: 1.8rem; /*equivale --> 1rem es 10px*/
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.card-category p::after{
+    content: '';
+    width: 2.5rem;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.card-category span{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-category span:hover{
+    color: rgb(189, 130, 22);
+}
+

@@ -1,0 +1,39 @@
+
+.container h5{
+    font-weight: 800;
+}
+.boton{
+    font-family: inherit;
+    background-color: #fff;
+    border: 1px solid black !important;
+    width: 15rem;
+    height: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.boton .btnCart{
+    color: #000;
+}
+
+.boton:hover{
+    background-color: black;
+}
+
+.boton:hover .btnCart{
+    color: #fff;
+}
+
+.contentCartShopping .imgCartShopping{
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+.contentCartTable ul{
+    list-style: none;
+}
+
+/*TOTA CART*/
